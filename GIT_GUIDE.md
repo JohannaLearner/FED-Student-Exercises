@@ -20,6 +20,11 @@ git add .
 # or 
 
 git add -A
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/id_rsa_github
+
 ```
 
 ### Commit changes to all your files
@@ -36,8 +41,7 @@ git push
 
 Check if you have an existing SSH key that you'd like to use. It is better if you create a new SSH key for GitHub; however, if you want to know if you have any SSH keys run the following command in your terminal on MacOS or Git Bash on Windows:
 
-```sh
-ls -al ~/.ssh
+```
 ```
 
 If you have a `.ssh` folder then you should see some keys with a `.pub` extension which is your public key.
@@ -82,7 +86,7 @@ You *should* see something like `Agent pid <number>` displayed on your terminal
 Run the following command to open your config file in VSCode.
 
 ```sh
-code ~/.ssh/config
+code 
 ```
 
 > :bulb: Heads Up:  If you're on mac and `code` does not work please follow these [instructions](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line "Running Visual Studio Code on macOS")
@@ -173,3 +177,4 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 ```
 
 > 🎊 You are now setup to use github, I'd keep this guide handy just in-case.
+~/.ssh/config
