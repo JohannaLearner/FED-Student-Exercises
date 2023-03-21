@@ -14,12 +14,76 @@ body {
     padding: 50px 20px 50px 20px; 
 
 }
-h1,h2,h3,h4,h5
- {
-    color: #bf3455;
+
+p {
+    color: #be3455;
+    font-size: 18px;
+}
+
+h1,h2,h3,h4 {
+    color: #be3455;
+}
+h1 {
+    font-size: 24px;
+}
+
+h2,h3 {
+    font-size: 22px;
+}
+.admin
+{color: #6e5d61;
+font-family:'Courier New', Courier, monospace;
+}
+p.admin {
+    font-size: 16px;
+}
+
+ol.admin {
+color: #6e5d61;
+}
+
+
+p  {
+    color: #6e5d61;
+    font-size: 16px;
     
  }
- p {
-    color:#26080f;
-    font-size:20px;
+ .admin h1,h2,h3,h4 {
+    color:#2c2527;
  }
+ 
+ .admin h1 {
+    font-size: 18px;
+
+ }
+ .admin h2, h3 {
+    font-size: 16px;
+
+ }
+
+ .chedid {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px 20px 50px 20px; 
+
+}
+
+p.chedid {
+    color: #be3455;
+    font-size: 18px;
+}
+
+.chedid h2,h3,h4 {
+    color: #be3455;
+}
+h1.chedid {
+    font-size: 28px;
+    color:#be3455;
+}
+
+
+h2,h3 {
+    font-size: 22px;
+}
+
+ 
+ 
