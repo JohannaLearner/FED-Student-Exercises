@@ -26,17 +26,17 @@
 
 .header h1 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     color:#fff;
             }
 
-            /*nav styling*/
-            nav ul {
+ /*nav styling*/
+nav ul {
                 list-style-type: none;
                 display:flex;
                 flex-direction:column;
                 text-align: right;
-                padding-right: 1rem;
+                padding-right: 2rem;
                 
             }
 
@@ -52,14 +52,39 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     padding: 0;
-    margin: 0;}
+    margin: 0;
+    background-color: #fff;
+}
 
 p  {
     color: #be3455;
     font-size: 1 rem;}
-.films
-ul {font-size: 1rem;}
 
+    a {
+        color:#310d15;
+        text-decoration: none;}
+    
+    a:hover {
+        color:#c99da7;
+    }
+    h1,h2,h3,h4 {
+        color: #be3455;
+    }
+    h1 {
+        font-size: 24px;
+    }
+
+    /*styles for film section*/
+
+.films {
+    background-color: #c4ced6;
+    padding: 1rem;
+}
+
+.films ul {
+    font-size: 1rem;
+    background-color: #c4ced6;
+}
 a {
     color:#310d15;
     text-decoration: none;}
@@ -83,6 +108,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
+    max-width: 500px;
   }
 
 
@@ -143,7 +169,8 @@ font-size: 16px;
     color:#BE3455;
     padding-right:1rem;
     padding-left: 1rem;}
-.chedid {
+
+    .chedid {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -160,6 +187,6 @@ font-size: 16px;
 @media screen and (max-width: 800px) {
     img {
         
-        width: 95%;
+        width: 85%;
     }
 }
