@@ -39,23 +39,27 @@
                 padding-right: 1rem;
                 
             }
+
+            nav a {
+                color: #fff;
+            }
+
+            nav a:hover{
+                color:#cdb7bc
+            }
 /*Basic styles*/
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     padding: 0;
-    margin: 0;
-
-}
+    margin: 0;}
 
 p {
     color: #be3455;
-    font-size: 1 rem;
-}
+    font-size: 1 rem;}
 
 a {
     color:#310d15;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 a:hover {
     color:#c99da7;
@@ -75,12 +79,14 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: transparent;
   }
 
 
 /*styles for admin section*/
 .admin
 {color: #6e5d61;
+    background-color: #d1d9e1;
 padding: 1rem;}
 .admin p {
     font-size: 16px;
@@ -114,23 +120,29 @@ font-size: 16px;
     
  
 /*styling for chedid section*/
+
+.chedid {
+    
+}
 .chedid p {
     color: #4f1523;
     font-size: 18px;
-    padding:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 .chedid h1 {
     font-size: 1.7rem;
     color:#be3455;
-    padding:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 .chedid h2 {
     font-size: 1.5rem;
     color:#BE3455;
-    padding:1rem;}
-
+    padding-right:1rem;
+    padding-left: 1rem;}
 .chedid {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
