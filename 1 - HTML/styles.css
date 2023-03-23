@@ -1,9 +1,9 @@
 /*This is a style sheet for Exercise 1*/
 /*Set up the main colors*/
 :root {
-    main_font: #4f1523;
-    head_font: #be3455;
-    minor_font: #6e5d61;
+    --main_font: #4f1523;
+    --head_font: #be3455;
+    --minor_font: #6e5d61;
 }
 * {
     box-sizing: border-box;
@@ -29,10 +29,18 @@
     font-size: 15px;
     color:#fff;
             }
+
+            /*nav styling*/
+            nav ul {
+                list-style-type: none;
+                display:flex;
+                flex-direction:column;
+                text-align: right;
+            }
 /*Basic styles*/
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-    padding: 0
+    padding: 0;
     margin: 0;
 
 }
@@ -70,9 +78,7 @@ img {
 
 /*styles for admin section*/
 .admin
-{color: #6e5d61;
-font-family:'Courier New', Courier, monospace;
-}
+{color: #6e5d61;}
 .admin p {
     font-size: 16px;
     color: #6e5d61;
@@ -81,26 +87,25 @@ font-family:'Courier New', Courier, monospace;
 
 .admin ol {
 color: #6e5d61;
-font-family:'Courier New', Courier, monospace;
-    font-size: 16px;
+font-size: 16px;
 
 }
 
 .admin h1 {
     color: #6e5d61;
-    font-family:'Courier New', Courier, monospace;
+    
     font-size: 18px;
             }
 
 .admin h2 {
         color: #6e5d61;
-        font-family:'Courier New', Courier, monospace;
+        
         font-size: 16px;
             }
 
 .admin h3
     {color: #6e5d61;
-        font-family:'Courier New', Courier, monospace;
+        
         font-size: 16px;
         }
     
