@@ -4,11 +4,11 @@
 
 Student Name: Jo Black
 
-Cohort: FEDXXX
+Cohort: FED306
 
 [Github URL](https://github.com/JohannaLearner)
 
-[Email](mailto:jo.)
+[Email](mailto:joanne_black@learners.purplebeard.co.uk)
 
 ## Projects I have worked on
 
