@@ -1,0 +1,56 @@
+
+/*all styles*/
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+/*header styling*/
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.site_header {
+    background-color: #be3455;
+}
+
+.site_title {
+    margin:0px;
+    padding:0px;
+    font-size: 1rem;
+}
+
+.site_header .container  {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    padding:10px;
+}
+
+.top_nav ul {
+    list-style-type: none;
+    text-align:center;
+    margin: 10px 0 0 10px;
+    
+}
+
+.top_nav li {
+    display:inline;
+    padding: 0 5px;
+}
+.top_nav a {
+    color:#fff;
+    text-decoration: none;
+    display:inline-block;
+}
