@@ -1,5 +1,3 @@
-/*This is a style sheet for Exercise 1*/
-/*Set up the main colors*/
 
 * {
     box-sizing: border-box;
@@ -97,6 +95,13 @@ h4 {
     color:#fff;
     text-decoration: none;
     display:inline-block;
+}
+
+
+/*styling for exercise 2 section*/
+
+.exercise2 {
+    background-color: #f8d6de;
 }
  /*styling for footer*/
 footer {
