@@ -9,9 +9,6 @@
     box-sizing: border-box;
 }
 
-
-
-
 /*header styling*/
 
 .header {
@@ -32,21 +29,20 @@
 
  /*nav styling*/
 nav ul {
-                list-style-type: none;
-                display:flex;
-                flex-direction:column;
-                text-align: right;
-                padding-right: 2rem;
-                
-            }
+    list-style-type: none;
+    display:flex;
+    flex-direction:column;
+    text-align: right;
+    padding-right: 2rem;
+        }
 
-            nav a {
-                color: #fff;
-            }
+nav a {
+    color: #fff;
+     }
 
-            nav a:hover{
-                color:#cdb7bc
-            }
+nav a:hover{
+color:#cdb7bc
+}
 /*Basic styles*/
 
 body {
@@ -58,20 +54,22 @@ body {
 
 p  {
     color: #be3455;
-    font-size: 1 rem;}
+    font-size: 1 rem;
+    }
 
-    a {
-        color:#310d15;
-        text-decoration: none;}
+a {
+    color:#310d15;
+    text-decoration: none;
+    }
     
-    a:hover {
-        color:#c99da7;
+a:hover {
+    color:#c99da7;
     }
-    h1,h2,h3,h4 {
-        color: #be3455;
+h1,h2,h3,h4 {
+    color: #be3455;
     }
-    h1 {
-        font-size: 24px;
+h1 {
+    font-size: 1.5rem;git 
     }
 
     /*styles for film section*/
@@ -110,45 +108,7 @@ img {
     background-color: transparent;
     max-width: 500px;
   }
-
-
-/*styles for admin section*/
-.admin
-{color: #6e5d61;
-    background-color: #d1d9e1;
-padding: 1rem;}
-.admin p {
-    font-size: 16px;
-    color: #6e5d61;
-
-        }
-
-.admin ol {
-color: #6e5d61;
-font-size: 16px;
-
-}
-
-.admin h1 {
-    color: #6e5d61;
-    
-    font-size: 18px;
-            }
-
-.admin h2 {
-        color: #6e5d61;
-        
-        font-size: 16px;
-            }
-
-.admin h3
-    {color: #6e5d61;
-        
-        font-size: 16px;
-        }
-    
- 
-/*styling for chedid section*/
+/*basic styling for chedid section*/
 
 .chedid p {
     color: #4f1523;
