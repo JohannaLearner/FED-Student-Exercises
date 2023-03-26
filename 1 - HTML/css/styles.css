@@ -13,15 +13,23 @@ body {
     display:flex;
     flex-direction: column;
     }
-main {
-    padding: 1rem;
+
+img {
+    max-width:600px;
+    margin: 0 auto;
 }
-p  {
+
+
+main p  {
         color: #21090e;
         font-size: 1rem;
         line-height: 140%;
         font-weight: 200;
+        padding-left: 1rem;
+        padding-right: 1rem;
         }
+
+
 
 ul li {
     color: #21090e;
@@ -36,9 +44,11 @@ a {
 a:hover {
         color:#c99da7;
         }
-h1,h2,h3,h4 {
+h1,h2,h3,h4 h5 {
         color: #fc455a;
         font-weight:800;
+        padding: 1px 1rem;
+
         }
 h1 {
     font-size: 1.3rem;
@@ -101,7 +111,23 @@ h4 {
 /*styling for exercise 2 section*/
 
 .exercise2 {
-    background-color: #f8d6de;
+    padding: 10px 0;
+    background-color: #4b2336;
+}
+
+.exercise2 img {
+max-width: 300px;
+
+
+}
+.exercise2 ul {
+    padding: 1rem 3rem;
+    
+}
+
+.exercise2 li {
+    color:#fc455a;
+    list-style-type: square;
 }
  /*styling for footer*/
 footer {
