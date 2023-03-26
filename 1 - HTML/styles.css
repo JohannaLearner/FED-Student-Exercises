@@ -1,10 +1,6 @@
 /*This is a style sheet for Exercise 1*/
 /*Set up the main colors*/
-:root {
-    --main_font: #21090e;
-    --head_font: #a11b5a;
-    --minor_font: #6e5d61;
-}
+
 * {
     box-sizing: border-box;
 }
@@ -12,32 +8,32 @@
 body {
     font-family: 'Montserrat';
     font-size: 1rem;
-    margin:0
-    padding:0
+    margin:0;
+    padding:0;
+    max-width:100vw;
+    max-height: 100vw;
+    display:flex;
+    flex-direction: column;
     }
+
 main {
-    padding: .5rem;
+    padding: 1rem;
 }
 
 p  {
         color: #21090e;
         font-size: 1rem;
         line-height: 140%;
+        font: weight 200px;;
         }
 
 ul li {
     color: #21090e;
-    line-height:140%;}
+    line-height:140%;
+font-size: .95rem;}
 
-h1
-    {font-size: 1.1rem;
-    color:#fc455a;
-    line-height: 140%;}
-
-
-    
 a {
-        color:#310d15;
+        color:#fc455a;
         text-decoration: none;
         }
         
@@ -45,82 +41,64 @@ a:hover {
         color:#c99da7;
         }
 h1,h2,h3,h4 {
-        color: #be3455;
+        color: #fc455a;
+        font-weight:800;
         }
-    h1 {
-        font-size: 1.5rem;} 
+h1 {
+    font-size: 1.3rem;
+}
+h2 {
+    font-size: 1.2rem;
+}
+h3 {
+    font-size: 1.1rem;
+}
+h4 {
+    font-size: 1.1rem;
+}
+
 
 /*header styling*/
 
-.header {
-    display:block;
+header {
+    
     margin:0;
     width:100%;
     background-color: #a11b5a;
-    text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
-        }
-
-.site_title {
-    color: #fc455a;
-    font-size: 2rem;
-}
-/*nav styling*/
-nav ul {
-    list-style-type: none;
+    display:flex;
+    flex-direction: column;
     display:flex;
     flex-direction:column;
-    text-align: right;
-    padding-right: 2rem;
+    align-items: center;
         }
-nav a {
+
+/*.site_title {
+    color: #fc455a;
+    font-size: 1.2rem;
+}*/
+/*nav styling*/
+
+.top_nav ul {
+    list-style-type: none;
+    
+        }
+.top_nav a {
     color: #fff;
      }
 
-nav a:hover{
-color:#cdb7bc
+.top_nav a:hover{
+color:#fc455a;
 }
-
+*/
 
     /*styles for film section*/
 
-.films {
-    background-color: #c4ced6;
-    padding: 1rem;
+.films a {
+    color:#3e111a;
 }
-
-.films ul {
-    font-size: 1rem;
-    background-color: #c4ced6;
-}
-a {
-    color:#310d15;
-    text-decoration: none;}
-
-a:hover {
-    color:#c99da7;
-}
-h1,h2,h3,h4 {
-    color: #be3455;
-}
-h1 {
-    font-size: 1.4rem;
-}
-
-h2,h3 {
-    font-size: 22px;
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-    max-width: 500px;
-  }
-
-/*styling for footer*/
+    /*styling for footer*/
 footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
