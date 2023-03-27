@@ -16,7 +16,7 @@
               <li><a href="exercise1.html">HTML</a>
               <li><a href="#exercise11">Exercise 1</a></li>
               <li> <a href ="#exercise22">Exercise2</a></li>
-              <li> <a href= "#exercise33">Exercise3</a></li></li>
+              <li> <a href= "#exercise33">Exercise3</a></li>
             </ul>
           </nav>
       </div>
@@ -43,8 +43,10 @@ Et puis…<br>
 Recommence?<br>
           </p>
           <h2>Who is Andree Chedid?</h2>
+          <div class="image">
           <img
           src="../images/andree_chedid_timbre.jpg" alt="A picture of Andree Chedid, Egyptian-French poet on a commerative stamp">
+          </div>
           <p>Andrée Chedid (Arabic: أندريه شديد) 20 March 1920 to 6 February 2011,
           born Andrée Saab Khoury, was an Egyptian-French poet and novelist of
           Syrian/Lebanese descent. She is the recipient of numerous literary
@@ -59,8 +61,10 @@ Recommence?<br>
       <section class ="exercise2" id="exercise22">
             <h1>HTML Exercise 2</h1>
             <h2>Films I like In no real order</h2>
+            <div class="image">
        <img src="../images/bsbook1a.png" alt="A picture of Mehdi El Glaoui in the 1965 TV series of Belle et Sebastien">
-                    <ul>
+            </div>
+                               <ul>
                         <li><a href="https://www.imdb.com/title/tt0083866/?ref_=fn_al_tt_1">ET</a></li>
                         <li> <a href="https://www.imdb.com/title/tt0245429/?ref_=ttls_li_tt">Spirited Away</a></li>
                         <li><a href="https://www.imdb.com/title/tt0088323/?ref_=ttls_li_tt">The Neverending Story</a></li>
@@ -80,10 +84,16 @@ Recommence?<br>
         <form class="contact">
                 <input type="text" name="name" id="name" placeholder = "Name" required>
                 <input type="text" name="address" id="address" placeholder = "Address" required>
-                <input type="text" name="email" id="email" placeholder = "Email" required>
-                <textarea name="message" id="message" rows = "4" cols="30"></textarea>
+                <input type="text" name="email" id="email" placeholder = "Email"  required>
+                <textarea name="message" id="message" rows = "4" cols="53" placeholder = "write your message here"></textarea>
+                <input type="submit" value="submit">
+                <p>If you submit a question via an enquiry form or contact form, we need to process your data in order to respond. However, your data will only be processed for this purpose, and will not be used for anything else.</p>
+                <label for="checkbox">Please tick to confirm you agree to the above statement</label>
+                <input type ="checkbox" name="checkbox" id="checkbox" value ="yes" required>
                 <input type="submit" value="submit">
               </form>
+
+
     </section>
     </main>
     <footer>
