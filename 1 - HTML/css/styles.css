@@ -65,9 +65,15 @@ h4 {
 .exercise_4
 {padding: 5px 5px;
 border: solid var(--main_header) 1px;
+width: 100%;
+text-align: left;
 }
 
-tr:nth-child(even) {
+.exercise_4  {
+    border: solid #30081b 1px;
+}
+
+tr:nth-child(odd) {
         background-color: var(--pale_contrast);
       }
 
@@ -216,4 +222,8 @@ form {
     main ul {
         padding: 0 6em;
         }
+    }
+
+    .exercise_4 {
+        width: 80%;
     }
