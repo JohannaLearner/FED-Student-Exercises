@@ -1,33 +1,28 @@
 :root {
-
-        --main_header:#a11b5a;
-        --crazy_head:#fc455a;
-        --font_co:#ab71d4;
-        --plein_air:hsl(211, 25%, 82%);
-        --pale_contrast: #97facc;
-        --link_visited:hsl(211, 69%, 51%);
-
-
+  --main_header: #a11b5a;
+  --crazy_head: #fc455a;
+  --font_co: #150e1b;
+  --plein_air: hsl(211, 25%, 82%);
+  --pale_contrast: #97facc;
+  --link_visited: hsl(211, 69%, 51%);
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin:0;
-    padding:0;
-    font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
 }
 
-
-
-
-
-
-
+main {
+  padding: 2rem;
+  color: var(--font_co);
 }
 
-
-
-
+h1,
+h2 {
+  color: var(--main_header);
+}

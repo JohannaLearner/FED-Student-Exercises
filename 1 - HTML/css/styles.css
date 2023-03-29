@@ -232,11 +232,13 @@ form {
 */
 /*styling for bigger screens*/
 
-@media screen and (min-width: 1000px) {
-  main {
+@media screen and (min-width: 1000px) 
+
+main {
     padding: 2rem 5rem;
-  }
-  form {
+  }@
+  
+form {
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -248,10 +250,11 @@ form {
     border: #fc455a solid 2px;
     max-width: 80%;
   }
+
   main ul {
     padding: 0 6em;
   }
-}
+
 
 .exercise_4 {
   width: 80%;
