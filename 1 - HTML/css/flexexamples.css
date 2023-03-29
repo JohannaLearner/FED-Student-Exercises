@@ -1,0 +1,28 @@
+:root {
+
+        --main_header:#a11b5a;
+        --crazy_head:#fc455a;
+        --font_co:#ab71d4;
+        --plein_air:hsl(211, 25%, 82%);
+        --pale_contrast: #97facc;
+        --link_visited:hsl(211, 69%, 51%);
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: "Montserrat";
+    
+
+
+}
+
+
+
+
