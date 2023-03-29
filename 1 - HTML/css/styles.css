@@ -46,7 +46,7 @@ a:visited {
 a:active {
     color: var(--main_header);
 }
-h1,h2,h3,h4, h5 {
+h1,h2,h3,h4,h5 {
         color: var(--main_header);
         font-weight:800; }
 h1 {
@@ -62,6 +62,7 @@ h4 {
     font-size: 1.1rem;
 }
 
+/*styling for tables in exercise 4*/
 .exercise_4
 {padding: 5px 5px;
 border: solid var(--main_header) 1px;
@@ -104,7 +105,7 @@ tr:nth-child(odd) {
     align-items: center;
     padding:10px;
 }
-
+/*top menu styling*/
 .top_nav ul {
     list-style-type: none;
     
@@ -126,22 +127,30 @@ tr:nth-child(odd) {
     color:#fc455a;
 }
 
-/*styling for exercise 2 section*/
+/*styling for back to top anchor*/
+.back
+{display: block;
+background-color: var(--main_header);
+text-align: center;
+padding: 20px;
+max-width: 150px;
+margin: 0 auto;
+border-radius: 50%;}
 
-.exercise2 {
-    
-    background-color: #4b2336;
+.back a {
+    color: var(--pale_contrast);
+    font-weight:800;
 }
 
-.exercise2 img {
-max-width: 350px;}
+
+
+/*styling for exercise 2 section*/
 
 .image {
 display:flex;
 flex-direction: row;
-justify-content:space-between;
-padding: 20px 0;
-
+justify-content:space-evenly;
+padding: 20px 20px;
 }
 .exercise2 ul {
     padding: 1rem 3rem;
@@ -152,24 +161,48 @@ padding: 20px 0;
     color:#fc455a;
     list-style-type: square;
 }
+
+/*styling for tables in exercise 4*/
+.exercise_4
+{padding: 5px 5px;
+border: solid var(--main_header) 1px;
+width: 100%;
+text-align: left;
+}
+
+.exercise_4  {
+    border: solid #30081b 1px;
+}
+
+tr:nth-child(odd) {
+        background-color: var(--pale_contrast);
+      }
+
  /*styling for footer*/
 footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background-color: #a11b5a;
     text-align: center;
-    color:#fc455a;
 }
-.h1_footer {
-    color: var(--crazy_head);
-}
+
 footer a {
-    color: #f8d6de;
+    color: lime
 }
+
+
+/*
 footer a:hover 
 {
-    color:#fc455a;
+    color: var(--font_co);
 }
+footer a:visited {
+    color: var(--pale_contrast--);
+}
+footer a:active {
+    color: var(--link_visited);}
+
+    /*end of footer styling*/
 
 form {
     padding: 10px;
