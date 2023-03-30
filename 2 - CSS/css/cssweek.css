@@ -33,7 +33,7 @@ p {
 body {
   font-family: "Montserrat";
   font-size: var(--font_m);
-  background-color: var(--background);
+  background-color: var(--background_contrast);
   color: var(--font_co);
 }
 
