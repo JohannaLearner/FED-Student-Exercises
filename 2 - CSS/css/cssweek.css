@@ -1,0 +1,148 @@
+/*reset browser defaults*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font_co: #fffbfb;
+  --heading_co: #2a2e74;
+  --contrast: #5c2c90;
+  --background_contrast: #e8338b;
+
+  --fontxs: .6em;
+  --font_s: calc(var(--fontxs) * 1.25);
+  --font_m: calc(var(--font_s) * 1.25);
+  --font_l: calc(var(--font_m) * 1.55);
+  --font_ml: calc(var(--font_m) * 1.25);
+  --background: #c13979;
+
+}
+
+/*Basic Styles are all set for small screens*/
+
+a {
+  text-decoration:none;
+}
+p {
+  padding: var(--fontxs) 0;
+}
+
+
+
+body {
+  font-family: "Montserrat";
+  font-size: var(--font_m);
+  background-color: var(--background);
+  color: var(--font_co);
+}
+
+h1 {
+  font-size: var(--font_l);
+  color: var(--heading_co);
+
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-size: var(--font_ml);
+  color: var(--heading_co);
+}
+
+main {
+  padding: 2rem;
+  font-family: "Montserrat";
+}
+
+
+header 
+{background-color: var(--contrast);}
+
+footer 
+{background-color: var(--background_contrast);}
+
+
+
+/*navbar*/
+
+.top_nav {
+  padding: 1rem 0 1rem 0;
+}
+
+.top_nav h1 a {
+  color: var(--font_co);
+  text-decoration:none;
+  font-size: var(--font_s);
+}
+
+.top_nav ul {
+  list-style-type: none;
+  padding:0;
+  margin:0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.top_nav a {
+  color: var(--font_co);
+  text-decoration:none;
+  display:block;
+}
+
+.top_nav a:hover {
+  color: var(--contrast);
+}
+
+.top_nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/*footer nav*/
+
+.footer_nav {
+  padding: 2rem;
+
+}
+
+.footer_nav h1 a {
+  font-size: var(--font_s);
+  color: var(--heading_co);
+}
+
+.footer_nav ul
+{list-style-type: none;
+  padding: 0;
+  margin:0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer_nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.footer_nav a {
+  color: var(--heading_co);
+  text-decoration:none;
+  display:block;
+}
+
+.footer_nav a:hover {
+  color: var(--contrast);
+}
+
+
+
+
+
