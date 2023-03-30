@@ -10,7 +10,9 @@
 * {
   box-sizing: border-box;
 }
+
 /*basic styles for small screens*/
+
 body {
   font-family: "Montserrat";
   font-size: 1rem;
@@ -66,6 +68,7 @@ h4 {
 }
 
 /*styling for tables in exercise 4*/
+
 .exercise_4 {
   padding: 5px 5px;
   border: solid var(--main_header) 1px;
@@ -111,24 +114,23 @@ tr:nth-child(odd) {
 .top_nav ul {
   list-style-type: none;
 }
-/*
 
 .top_nav li {
-    display:inline;
-    padding: 0 5px;
-}*/
+  display: inline;
+  padding: 0 5px;
+}
+
 .top_nav a {
   color: #fff;
   text-decoration: none;
 }
-/*display:inline-block;
 
-*/
 .top_nav a:hover {
   color: #fc455a;
 }
 
 /*styling for back to top anchor*/
+
 .back {
   display: block;
   background-color: var(--main_header);
@@ -162,6 +164,7 @@ tr:nth-child(odd) {
 }
 
 /*styling for tables in exercise 4*/
+
 .exercise_4 {
   padding: 5px 5px;
   border: solid var(--main_header) 1px;
@@ -178,6 +181,7 @@ tr:nth-child(odd) {
 }
 
 /*styling for footer*/
+
 footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -223,22 +227,21 @@ form {
 /MEDIA QUERIES*/
 
 /*media queries - fix image size on mobile*/
+
 @media screen and (max-width: 800px) {
   img {
     width: 85%;
   }
 }
 
-*/
 /*styling for bigger screens*/
 
-@media screen and (min-width: 1000px) 
-
-main {
+@media screen and (min-width: 1000px) {
+  main {
     padding: 2rem 5rem;
-  }@
-  
-form {
+  }
+
+  form {
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -255,7 +258,7 @@ form {
     padding: 0 6em;
   }
 
-
-.exercise_4 {
-  width: 80%;
+  .exercise_4 {
+    width: 80%;
+  }
 }
