@@ -61,7 +61,7 @@ header
 {background-color: var(--contrast);}
 
 footer 
-{background-color: var(--background_contrast);}
+{background-color: var(--contrast);}
 
 
 
@@ -96,7 +96,7 @@ footer
 }
 
 .top_nav a:hover {
-  color: var(--contrast);
+  color: var(--background_contrast);
 }
 
 .top_nav li:first-child {
@@ -113,7 +113,7 @@ footer
 
 .footer_nav h1 a {
   font-size: var(--font_s);
-  color: var(--heading_co);
+  color: var(--background_contrast);
 }
 
 .footer_nav ul
@@ -133,13 +133,13 @@ footer
 }
 
 .footer_nav a {
-  color: var(--heading_co);
+  color: var(--font_co);
   text-decoration:none;
   display:block;
 }
 
 .footer_nav a:hover {
-  color: var(--contrast);
+  color: var(--background_contrast);
 }
 
 
