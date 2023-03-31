@@ -27,20 +27,15 @@ a {
 p {
   padding: var(--fontxs) 0;
 }
-
-
-
 body {
   font-family: "Montserrat";
   font-size: var(--font_m);
   background-color: var(--background_contrast);
   color: var(--font_co);
 }
-
 h1 {
   font-size: var(--font_l);
   color: var(--heading_co);
-
 }
 
 h2,
@@ -50,33 +45,24 @@ h5 {
   font-size: var(--font_ml);
   color: var(--heading_co);
 }
-
 main {
   padding: 2rem;
   font-family: "Montserrat";
 }
-
-
 header 
 {background-color: var(--contrast);}
 
 footer 
 {background-color: var(--contrast);}
-
-
-
 /*navbar*/
-
 .top_nav {
   padding: 1rem 0 1rem 0;
 }
-
 .top_nav h1 a {
   color: var(--font_co);
   text-decoration:none;
   font-size: var(--font_s);
 }
-
 .top_nav ul {
   list-style-type: none;
   padding:0;
@@ -86,7 +72,6 @@ footer
   justify-content: center;
   align-items: center;
   gap: 1rem;
-
 }
 
 .top_nav a {
@@ -94,28 +79,22 @@ footer
   text-decoration:none;
   display:block;
 }
-
 .top_nav a:hover {
   color: var(--background_contrast);
 }
-
 .top_nav li:first-child {
   flex-basis: 100%;
   text-align: center;
 }
-
 /*footer nav*/
-
 .footer_nav {
   padding: 2rem;
-
 }
 
 .footer_nav h1 a {
   font-size: var(--font_s);
   color: var(--background_contrast);
 }
-
 .footer_nav ul
 {list-style-type: none;
   padding: 0;
@@ -126,23 +105,67 @@ footer
   align-items: center;
   gap: 1rem;
 }
-
 .footer_nav li:first-child {
   flex-basis: 100%;
   text-align: center;
 }
-
 .footer_nav a {
   color: var(--font_co);
   text-decoration:none;
   display:block;
 }
-
 .footer_nav a:hover {
   color: var(--background_contrast);
+}
+/*header formating for responsive_nav_bar.html page*/
+
+.flex-model {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site_header {
+  background-color: var(--background_contrast);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 60px;
+  padding: 1rem;
+  }
+  .site_header h1 a {
+    font-size: var(--font_s);
+  }
+
+.response {
+  display:flex;
+  align-items: center;
+}
+
+.response_item {
+  display:flex;
 }
 
 
 
+  .site_header ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+/*section styling for responsive_nav page*/
+.response_test {
+  background-color: #ffffff;
+  color: var(--contrast);
+}
+
+
+
+
+.footer_nav
+
+
+{
+  background-color: #ffffff;
+}
 
 
