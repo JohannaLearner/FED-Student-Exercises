@@ -1,0 +1,38 @@
+/*This stylesheet is for another_nav_bar_page*/
+/*reset styles*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin-left: auto;
+  padding: 1rem;
+ 
+}
+
+.site_header {
+  font-size: 18px;
+  background-color: grey;
+  padding: 1rem;
+  margin-right: 10px;
+}
+
+.red {
+  font-size: 18px;
+  color: black;
+  background-color: grey;
+  padding: 1rem;
+  margin-right: 40px;
+}
+
+.codepen_csstricks_example {
+  display: flex;
+  border: dashed 1px brown;
+  padding: 0.5rem;
+  align-items: baseline;
+}
