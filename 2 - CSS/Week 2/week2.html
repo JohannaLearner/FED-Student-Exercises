@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="stylesheet" href="/2 - CSS/Week 2/buttonstyles.css">
+    <link rel="stylesheet" href="./buttonstyles.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <title>Week 2 Exercise 1</title>
-</head>
+    </head>
 
 <body>
     <header class="hB">
@@ -23,19 +23,42 @@
         </nav>
     </header>
     <main>
+        <section class="intro">
         <h1>Welcome</h1>
-        <p>This is an exercise in how to generate a model window.</p>
-        <section class="modal_button">
-            <button id="myModalB" class="modalB">Can I kick it?</button>
+        <p>This is an exercise in how to generate a modal window.</p>
         </section>
-        <section class="modal_window">
-            <div id="myModalW" class="window">
-                <span class="close">&times;</span>
-                <p>Yes you can</p>
+        <!--The Button-->
+         <button id="myModalB" class="modalB">Can I kick it?</button>
+        <!--The Modal Window-->
+        <div id="myModalW" class="mWindow">
+            <!--Content of Window-->
+            <div class="modal_content">
+            <span class="close">&times;</span>
+            <p>Yes you can, Yes you can</p>
             </div>
-
-
-        </section>
+        </div>
     </main>
 </body>
 </html>
+<script>
+    //get the window
+    var mWindow = document.getElementById ("myModalW");
+
+    //target the button that opens model
+    var btn = document.getElementById ("myModalB");
+
+    //target span
+    var span = document.getElementsByClassName ("close") [0];
+
+    //onclickfunction
+    btn.onclick = function ( ) {
+       
+        modal.style.display = "block";
+    }
+
+    //Close model
+    span.onclick = function () {
+        modal.style.display= "none";
+    }
+
+</script>

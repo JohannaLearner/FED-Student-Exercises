@@ -1,9 +1,9 @@
-root {
-    --bgcolor: rgb(253, 239, 253);
-    --oncolor: hsl(338, 93%, 52%);
+:root {
+    --bgcolor: #f8efe8;
+    --oncolor: #a04e3c;
     --fontdark: #414141;
-    --alternative: hsl(196, 58%, 55%);
-    --bright: hsl(52, 90%, 58%);
+    --alternative: #f3765d;
+    --bright: #fea136;
     --xsmall: 0.5rem;
     --small: calc(var(--xsmall) * 1.5);
     --normal: calc(var(--small) * 1.5);
@@ -45,7 +45,7 @@ header nav ul {
 
 .site_logo {
     font-size: var(--normal);
-    color:var(--oncolor)
+    color: var(--oncolor);
 }
 a {
     text-decoration: none;
@@ -55,21 +55,73 @@ header a:hover {
 }
 
 header a {
-    color: var(--fontdark);
+    color: var(--alternative);
+    font-size: var(--normal);
 }
 
 main {
     padding: var(--xlarge);
+    background-color: #f3765d;
 }
 
 main h1 {
-    color: var(--oncolor);
+    color: var(--bgcolor);
     font-size: var(--large);
 }
 
-
+.intro {
+    padding-bottom: var(--normal);
+    
+}
 
 .modalB {
   background-color: var(--bgcolor);
   color: var(--oncolor);
+  border: solid 1px var(--oncolor);
+  border-radius: 15px;
+  font-size: var(--normal);
+  padding: var(--normal);
+  box-shadow: 0px 3px 15px #888888;
+  min-width: 100px;
+  
 }
+.mWindow {
+    display:none;
+    position:fixed;
+    z-index: 1;
+    left: 20px;
+    top: 150px;
+    overflow: auto;
+    background-color:#fea136;
+    padding: 5px 20px 5px 20px;
+    border-radius: 15px;
+    border: solid 1px var(--bgcolor);
+}
+
+.modal_content {
+    background-color: var(--bgcolor);
+    margin: 10% auto;
+    padding: 0 var(--normal) 0 var(--normal);
+    border: 1px solid var(--alternative);
+    border-radius: 2px;
+    box-shadow: 0px 3px 15px var(--oncolor);
+    font-size: var(--normal);
+    color: var(--oncolor);
+}
+
+/* The Close Button */
+.close {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-end;
+    color: var(--fontdark);
+    font-size: var(--xlarge);
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: var(--alternative);
+    text-decoration: none;
+    cursor:pointer;
+  }
