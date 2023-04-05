@@ -1,32 +1,75 @@
-/*reset styles*/
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    
-}
-
 root {
     --bgcolor: rgb(253, 239, 253);
     --oncolor: hsl(338, 93%, 52%);
     --fontdark: #414141;
     --alternative: hsl(196, 58%, 55%);
     --bright: hsl(52, 90%, 58%);
-
     --xsmall: 0.5rem;
-    --small: calc(var(--xsmall)*1.5);
-    --normal: calc(var(--small)*1.5);
-    --large: calc(var(--normal)*1.5);
-    --xlarge: calc(var(--large)*1.5);
+    --small: calc(var(--xsmall) * 1.5);
+    --normal: calc(var(--small) * 1.5);
+    --large: calc(var(--normal) * 1.5);
+    --xlarge: calc(var(--large) * 1.5);
+  }
+
+
+
+/*reset styles*/
+
+* {
+  box-sizing: border-box;
 }
 
-.modalB {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+/*header styling */
+.hB {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
     background-color: var(--bgcolor);
+    padding: var(--small) 0 var(--small) 0;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding: var(--xsmall) 0 var(--xsmall) 0;
+}
+
+.site_logo {
+    font-size: var(--normal);
+    color:var(--oncolor)
+}
+a {
+    text-decoration: none;
+}
+header a:hover {
+    color: var(--alternative);
+}
+
+header a {
+    color: var(--fontdark);
+}
+
+main {
+    padding: var(--xlarge);
+}
+
+main h1 {
     color: var(--oncolor);
-    
+    font-size: var(--large);
+}
+
+
+
+.modalB {
+  background-color: var(--bgcolor);
+  color: var(--oncolor);
 }
