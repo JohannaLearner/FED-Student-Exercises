@@ -30,35 +30,38 @@
         <!--The Button-->
          <button id="myModalB" class="modalB">Can I kick it?</button>
         <!--The Modal Window-->
-        <div id="myModalW" class="mWindow">
+        <div id="myModalW" class="modal">
             <!--Content of Window-->
             <div class="modal_content">
             <span class="close">&times;</span>
-            <p>Yes you can, Yes you can</p>
+            <p>Yes you can, Yes you can!</p>
             </div>
         </div>
+        <section class="oldskool">
+            <h2>Are you a fan of old skool?</h2>
+
+            <p>Listen to <a href="https://www.youtube.com/watch?v=O3pyCGnZzYA">Can I Kick It by A Tribe Called Quest</a> on Youtube.  Released in 1990. (seems like only yesterday)</p>
+            
+            
+        
+        </section>
+
     </main>
 </body>
 </html>
 <script>
     //get the window
-    var mWindow = document.getElementById ("myModalW");
-
+    var modal = document.getElementById ("myModalW");
     //target the button that opens model
     var btn = document.getElementById ("myModalB");
-
     //target span
     var span = document.getElementsByClassName ("close") [0];
-
     //onclickfunction
     btn.onclick = function ( ) {
-       
         modal.style.display = "block";
     }
-
     //Close model
     span.onclick = function () {
         modal.style.display= "none";
     }
-
 </script>

@@ -23,6 +23,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  height: 100svh;
 }
 
 
@@ -85,7 +86,7 @@ main h1 {
   min-width: 100px;
   
 }
-.mWindow {
+.modal {
     display:none;
     position:fixed;
     z-index: 1;
@@ -124,4 +125,26 @@ main h1 {
     color: var(--alternative);
     text-decoration: none;
     cursor:pointer;
+  }
+
+  .oldskool {
+    padding: var(--normal) 0 var(--normal) 0;
+   
+  }
+
+  .oldskool a {
+    color: var(--bgcolor);
+
+
+  }
+
+  .oldskool h2
+  {
+    color: var(--bgcolor);
+    font-size: var(--normal)
+  }
+
+  .oldskool  a:hover {
+    color: var(--fontdark);
+
   }
