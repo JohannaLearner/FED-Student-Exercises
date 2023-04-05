@@ -1,0 +1,30 @@
+/*reset styles*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+root {
+    --bgcolor: rgb(253, 239, 253);
+    --oncolor: hsl(338, 93%, 52%);
+    --fontdark: #414141;
+    --alternative: hsl(196, 58%, 55%);
+    --bright: hsl(52, 90%, 58%);
+
+    --xsmall: 0.5rem;
+    --small: calc(var(--xsmall)*1.5);
+    --normal: calc(var(--small)*1.5);
+    --large: calc(var(--normal)*1.5);
+    --xlarge: calc(var(--large)*1.5);
+}
+
+.myModalB {
+    background-color var(--)
+}

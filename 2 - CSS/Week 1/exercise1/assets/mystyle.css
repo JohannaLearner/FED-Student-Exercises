@@ -7,7 +7,7 @@
     --bgcolor: rgb(253, 239, 253);
     --oncolor: hsl(346, 67%, 77%);
     --fontdark: #414141;
-    --alternative: #1c637d;
+    --alternative: #48abcf;
 
     --xsmall: 0.5rem;
     --small: calc(var(--xsmall)*1.5);
@@ -60,7 +60,7 @@ a {
     text-decoration: none;
 }
 header a:hover {
-    color: var(--alternative);
+    color: var(--);
 }
 
 header a {
