@@ -25,6 +25,8 @@ root {
     --xlarge: calc(var(--large)*1.5);
 }
 
-.myModalB {
-    background-color var(--)
+.modalB {
+    background-color: var(--bgcolor);
+    color: var(--oncolor);
+    
 }
