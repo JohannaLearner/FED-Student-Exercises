@@ -148,3 +148,27 @@ main h1 {
     color: var(--fontdark);
 
   }
+
+
+  form {
+    min-width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    gap: 10px;
+    background-color: #f8d6de;
+    border: #fc455a solid 2px;
+  }
+
+  input{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80%;
+
+  }
+  formset {
+    display:flex;
+    flex-direction: column;
+  }
