@@ -12,16 +12,18 @@
 <body>
     <header>
         <div class="mobile_container">
-        <div class="top_nav">
-        <a href="#" class="active">Icon</a>
+        <div class="top_nav_plus">
+        <a href="#home" class="active">Logo</a>
         <div id="my_links">
-        <a href="#">Works</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
         </div>
         <a href="javascript:void(0);" class="icon"
-        onclick="myFunction()"></a>
-        </div> </div>
+        onclick="myFunction()">Icon</a>
+        </div>
+        </div>
+        </header>
 <main class="web_app">
 <h1>Welcome to Barrington CIC</h1>
 <p>Are you a community interest community?</p>
@@ -57,7 +59,7 @@
 
 </main>
     <script>
-        function myFunction(){
+        function myFunction() {
             var x = document.getElementById(my_links);
             if (x.style.display === "block") {
 x.style.display = "none";}

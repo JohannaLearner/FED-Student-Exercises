@@ -168,4 +168,44 @@ main h1 {
     flex-basis: 80%;
 
   }
-  .mobile
+
+  /*mobile navigation*/
+
+  .mobile_container {
+    max-width: 80%;
+    margin: auto;
+    background-color: var(--oncolor);
+    color: #fff;
+  }
+
+  .top_nav_plus {
+    overflow: hidden;
+    background-color: var(--fontdark);
+    position:relative;
+
+  }
+
+  .top_nav_plus #my_links {
+    display: none;
+  }
+.top_nav_plus a {
+  color: var(--bgcolor);
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+}
+
+.top_nav_plus a.icon {
+  background: black;
+  display:block;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+.active {
+  background-color: var(--fontdark);
+  color: var(--bgcolor);
+}
