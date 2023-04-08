@@ -168,7 +168,4 @@ main h1 {
     flex-basis: 80%;
 
   }
-  formset {
-    display:flex;
-    flex-direction: column;
-  }
+  .mobile
