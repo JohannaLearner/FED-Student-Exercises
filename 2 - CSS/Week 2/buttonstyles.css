@@ -171,16 +171,18 @@ main h1 {
 
   /*mobile navigation*/
 
-  .mobile_container {
-    max-width: 80%;
+  /*.mobile_container {
+    max-width: 60%;
     margin: auto;
     background-color: var(--oncolor);
     color: #fff;
+    height: 500px;
   }
+  */
 
   .top_nav_plus {
     overflow: hidden;
-    background-color: var(--fontdark);
+    background-color: var(--oncolor);
     position:relative;
 
   }
@@ -192,20 +194,52 @@ main h1 {
   color: var(--bgcolor);
   padding: 10px;
   text-decoration: none;
-  display: block;
-  font-size: 17px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .top_nav_plus a.icon {
   background: black;
-  display:block;
+  display:flex;
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 0px;
+  top: 0px;
 
 }
 
 .active {
   background-color: var(--fontdark);
   color: var(--bgcolor);
+}
+
+.web_app {
+  display:flex;
+  flex-flow: column wrap;
+  padding: var(--small)
+  
+}
+
+.web_app h1 {
+  color: var(--bgcolor);
+  font-size: var(--large);
+}
+  .web_app h2 {
+    color: var(--bgcolor);
+    font-size: var(--normal);
+  }
+
+  .web_app h3 {
+    color: var(--bgcolor);
+    font-size: var(--normal);
+  }
+
+
+
+.web_app p {
+  color: var(--fontdark);
+  font-size: var(--normal)
+}
+
+ .web
+  display:flex;
 }

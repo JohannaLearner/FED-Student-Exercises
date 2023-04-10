@@ -10,20 +10,22 @@
     <title>webapp</title>
 </head>
 <body>
-    <header>
+    
         <div class="mobile_container">
+
         <div class="top_nav_plus">
-        <a href="#home" class="active">Logo</a>
+
+        <a href="#home" class="active">BB</a>
+
         <div id="my_links">
         <a href="#works">Works</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         </div>
         <a href="javascript:void(0);" class="icon"
-        onclick="myFunction()">Icon</a>
+        onclick="myFunction()">Menu</a>
         </div>
         </div>
-        </header>
 <main class="web_app">
 <h1>Welcome to Barrington CIC</h1>
 <p>Are you a community interest community?</p>
@@ -58,9 +60,27 @@
 
 
 </main>
+<footer class="web">
+<h1 class="site_logo">BB</h1>
+<div class="address"><h2>Barrington CIC</h2>
+<p>35 Old Kent Road</p>
+    <p>London SE1 5FT
+</p>
+<p><a mailto:barrington@example.com>Email Us</a></p>
+</div>
+<nav class="footer">
+    <ul class="footer">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Works</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</nav>
+
+</footer>
     <script>
         function myFunction() {
-            var x = document.getElementById(my_links);
+            var x = document.getElementById("my_links") ;
             if (x.style.display === "block") {
 x.style.display = "none";}
 else {x.style.display = "block";}
