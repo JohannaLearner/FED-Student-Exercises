@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./buttonstyles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    
+    <title>Contact</title>
 </head>
 <body>
     
@@ -18,42 +21,65 @@
 
     <div class="top_nav_plus">
 
-    <a href="#home" class="active">BB</a>
+        <a href="/2 - CSS/Week 2/webapphome.html" class="active">BB</a>
 
-    <div id="my_links">
-    <a href="#works">Works</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    </div>
+        <div id="my_links">
+        <a href="/2 - CSS/Week 2/about.html">About</a>
+        <a href="/2 - CSS/Week 2/contact.html">Contact</a>
+        </div>
     <a href="javascript:void(0);" class="icon"
     onclick="myFunction()">Menu</a>
     </div>
     </div>
-    <main>
+    <main class = "web_app">
         <h2>Get in touch</h2>
         <p>If you have an enquiry or are interesting in making a grant application please use the form below to get in touch</p>
         <form>
-            <formset class = "grant_name">
+            <fieldset class = "grant_name">
             <label for="surname">Name</label>
-            <input type="text" name="surname" id="surname"></input>
+            <input type="text" name="surname" id="surname" required="yes">
             <label for="email">Email</label>
-            <input type="email" name="email" id="email"></input>
-            <label for="address">Address
-            </label>
-            <input type="text" name=""address id="address">
-            </formset>
-            <formset class="enquiry"><label for="enquiry">Enquiry</label>
-            <input type="text" name="enquiry" id ="enquiry"></input>
-            </formset>
-            <formset class="conset">
+            <input type="email" name="email" id="email" required="yes">
+            <label for="address">Address</label>
+            <input type="text" name="address" id="address" required="yes">
+            </fieldset>
+            <fieldset class="enquiry">
+                <label for="enquiry">Enquiry</label>
+            <textarea rows="8" cols="50" name="enquiry" id ="enquiry" required = "yes"></textarea>
+            </fieldset>
+            <fieldset class="consent">
             <label for="data">Please confirm that you consent to your data being used for the purpose of processing your enquiry.</label>
-            <label for="">Yes</label>
-            <input type="checkbox" name="data" id="data" value="Yes">
-            </formset>
-          <input type="submit" value="submit"></input>
+            <label for="data">Yes</label>
+            <input type="checkbox" name="data" id="data" value="Yes" required="yes">
+            </fieldset>
+          <input type="submit" value="submit">
         </form>
+        
 
     </main>
+    <footer class="web">
+        <div class="address"><h2>Barrington CIC</h2>
+        <p>35 Old Kent Road<br>
+        London SE1 5FT<br>
+        <a mailto:barrington@example.com>Email Us</a></p>
+        </div>
+        <nav class="footer">
+            <ul class="footer">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        
+        </nav>
+        ter>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("my_links") ;
+            if (x.style.display === "block") {
+x.style.display = "none";}
+else {x.style.display = "block";}
+ }
+    </script>
 
 
 

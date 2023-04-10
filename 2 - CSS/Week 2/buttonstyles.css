@@ -150,11 +150,22 @@ form {
   border: #fc455a solid 2px;
 }
 
-input {
+.grant_name {
+  display:flex;
+  flex-direction: column;
+
+}
+.enquiry {
+  display:flex;
+  flex-direction:column;
+}
+
+/*input {
   display: flex;
   flex-direction: column;
   flex-basis: 80%;
 }
+*/
 
 /*mobile navigation*/
 
