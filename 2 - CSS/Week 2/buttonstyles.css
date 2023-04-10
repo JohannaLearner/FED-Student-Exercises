@@ -1,17 +1,15 @@
 :root {
-    --bgcolor: #f8efe8;
-    --oncolor: #a04e3c;
-    --fontdark: #414141;
-    --alternative: #f3765d;
-    --bright: #fea136;
-    --xsmall: 0.5rem;
-    --small: calc(var(--xsmall) * 1.5);
-    --normal: calc(var(--small) * 1.5);
-    --large: calc(var(--normal) * 1.5);
-    --xlarge: calc(var(--large) * 1.5);
-  }
-
-
+  --bgcolor: #f8efe8;
+  --oncolor: #a04e3c;
+  --fontdark: #414141;
+  --alternative: #f3765d;
+  --bright: #fea136;
+  --xsmall: 0.5rem;
+  --small: calc(var(--xsmall) * 1.5);
+  --normal: calc(var(--small) * 1.5);
+  --large: calc(var(--normal) * 1.5);
+  --xlarge: calc(var(--large) * 1.5);
+}
 
 /*reset styles*/
 
@@ -26,53 +24,50 @@ body {
   height: 100svh;
 }
 
-
-
 /*header styling */
 .hB {
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    background-color: var(--bgcolor);
-    padding: var(--small) 0 var(--small) 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--bgcolor);
+  padding: var(--small) 0 var(--small) 0;
 }
 header nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
-    padding: var(--xsmall) 0 var(--xsmall) 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--xsmall) 0 var(--xsmall) 0;
 }
 
 .site_logo {
-    font-size: var(--normal);
-    color: var(--oncolor);
+  font-size: var(--normal);
+  color: var(--oncolor);
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 header a:hover {
-    color: var(--alternative);
+  color: var(--alternative);
 }
 
 header a {
-    color: var(--alternative);
-    font-size: var(--normal);
+  color: var(--alternative);
+  font-size: var(--normal);
 }
 
 main {
-    padding: var(--xlarge);
-    background-color: #f3765d;
+  padding: var(--xlarge);
+  background-color: #f3765d;
 }
 
 main h1 {
-    color: var(--bgcolor);
-    font-size: var(--large);
+  color: var(--bgcolor);
+  font-size: var(--large);
 }
 
 .intro {
-    padding-bottom: var(--normal);
-    
+  padding-bottom: var(--normal);
 }
 
 .modalB {
@@ -84,94 +79,86 @@ main h1 {
   padding: var(--normal);
   box-shadow: 0px 3px 15px #888888;
   min-width: 100px;
-  
 }
 .modal {
-    display:none;
-    position:fixed;
-    z-index: 1;
-    left: 20px;
-    top: 150px;
-    overflow: auto;
-    background-color:#fea136;
-    padding: 5px 20px 5px 20px;
-    border-radius: 15px;
-    border: solid 1px var(--bgcolor);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 20px;
+  top: 150px;
+  overflow: auto;
+  background-color: #fea136;
+  padding: 5px 20px 5px 20px;
+  border-radius: 15px;
+  border: solid 1px var(--bgcolor);
 }
 
 .modal_content {
-    background-color: var(--bgcolor);
-    margin: 10% auto;
-    padding: 0 var(--normal) 0 var(--normal);
-    border: 1px solid var(--alternative);
-    border-radius: 2px;
-    box-shadow: 0px 3px 15px var(--oncolor);
-    font-size: var(--normal);
-    color: var(--oncolor);
+  background-color: var(--bgcolor);
+  margin: 10% auto;
+  padding: 0 var(--normal) 0 var(--normal);
+  border: 1px solid var(--alternative);
+  border-radius: 2px;
+  box-shadow: 0px 3px 15px var(--oncolor);
+  font-size: var(--normal);
+  color: var(--oncolor);
 }
 
 /* The Close Button */
 .close {
-    display: flex;
-    flex-direction: row wrap;
-    justify-content: flex-end;
-    color: var(--fontdark);
-    font-size: var(--xlarge);
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: var(--alternative);
-    text-decoration: none;
-    cursor:pointer;
-  }
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: flex-end;
+  color: var(--fontdark);
+  font-size: var(--xlarge);
+  font-weight: bold;
+}
 
-  .oldskool {
-    padding: var(--normal) 0 var(--normal) 0;
-   
-  }
+.close:hover,
+.close:focus {
+  color: var(--alternative);
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  .oldskool a {
-    color: var(--bgcolor);
+.oldskool {
+  padding: var(--normal) 0 var(--normal) 0;
+}
 
+.oldskool a {
+  color: var(--bgcolor);
+}
 
-  }
+.oldskool h2 {
+  color: var(--bgcolor);
+  font-size: var(--normal);
+}
 
-  .oldskool h2
-  {
-    color: var(--bgcolor);
-    font-size: var(--normal)
-  }
+.oldskool a:hover {
+  color: var(--fontdark);
+}
 
-  .oldskool  a:hover {
-    color: var(--fontdark);
+form {
+  min-width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  gap: 10px;
+  background-color: #f8d6de;
+  border: #fc455a solid 2px;
+}
 
-  }
+input {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+}
 
+/*mobile navigation*/
 
-  form {
-    min-width: 80%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    gap: 10px;
-    background-color: #f8d6de;
-    border: #fc455a solid 2px;
-  }
-
-  input{
-    display: flex;
-    flex-direction: column;
-    flex-basis: 80%;
-
-  }
-
-  /*mobile navigation*/
-
-  /*.mobile_container {
+/*.mobile_container {
     max-width: 60%;
     margin: auto;
     background-color: var(--oncolor);
@@ -180,16 +167,15 @@ main h1 {
   }
   */
 
-  .top_nav_plus {
-    overflow: hidden;
-    background-color: var(--oncolor);
-    position:relative;
+.top_nav_plus {
+  overflow: hidden;
+  background-color: var(--oncolor);
+  position: relative;
+}
 
-  }
-
-  .top_nav_plus #my_links {
-    display: none;
-  }
+.top_nav_plus #my_links {
+  display: none;
+}
 .top_nav_plus a {
   color: var(--bgcolor);
   padding: 10px;
@@ -200,11 +186,10 @@ main h1 {
 
 .top_nav_plus a.icon {
   background: black;
-  display:flex;
+  display: flex;
   position: absolute;
   right: 0px;
   top: 0px;
-
 }
 
 .active {
@@ -213,33 +198,47 @@ main h1 {
 }
 
 .web_app {
-  display:flex;
+  display: flex;
   flex-flow: column wrap;
-  padding: var(--small)
-  
+  padding: var(--small);
 }
 
 .web_app h1 {
   color: var(--bgcolor);
   font-size: var(--large);
 }
-  .web_app h2 {
-    color: var(--bgcolor);
-    font-size: var(--normal);
-  }
+.web_app h2 {
+  color: var(--bgcolor);
+  font-size: var(--normal);
+}
 
-  .web_app h3 {
-    color: var(--bgcolor);
-    font-size: var(--normal);
-  }
-
-
+.web_app h3 {
+  color: var(--bgcolor);
+  font-size: var(--normal);
+}
 
 .web_app p {
   color: var(--fontdark);
-  font-size: var(--normal)
+  font-size: var(--normal);
 }
 
- .web
-  display:flex;
+.web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--fontdark);
+  color: var(--alternative);
+  padding: 10px;
 }
+
+.web ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.web li a {
+  color: var(--bgcolor);
+}
+
