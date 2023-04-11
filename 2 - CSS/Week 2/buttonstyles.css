@@ -8,6 +8,10 @@
   --accentpurp: #373737;
   --accentfont: #edc951;
   --accentalt: #eb6841;
+  --accentpeach: #fcedda;
+  --alternativetan: #e0a96d;
+  --alternativemar: #7a2048;
+  --accentmoss: #97bc62ff;
   --xsmall: 0.5rem;
   --small: calc(var(--xsmall) * 1.5);
   --normal: calc(var(--small) * 1.5);
@@ -208,21 +212,23 @@ form {
 }
 
 .top_nav_plus a:hover {
-  color:var(--accentfont);
+  color:var(--accentpeach);
+  ;
 }
 
 .top_nav_plus a:active {
-  color:var(--fontdark);
+  color:var(--accentteal);
 
 
 }
 
 .top_nav_plus a:visited {
-  color:var(--accentteal);
+  color:var(--alternativemar
+  );
 }
 
 .top_nav_plus a:visited:hover {
-  color:var(--oncolor);
+  color:var(--accentmoss);
 }
 
 
@@ -295,3 +301,12 @@ form {
   padding: 20px;
 }
 
+.web_about {
+  background-color: var(--fontdark);
+  color: #fff;
+
+}
+
+.web_about h1 {
+  color: var(--accentalt);
+}
