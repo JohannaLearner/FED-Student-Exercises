@@ -203,6 +203,25 @@ form {
   justify-content: flex-start;
 }
 
+.top_nav_plus a:hover {
+  color:var(--accentfont);
+}
+
+.top_nav_plus a:active {
+  color:var(--fontdark);
+
+
+}
+
+.top_nav_plus a:visited {
+  color:var(--accentteal);
+}
+
+.top_nav_plus a:visited:hover {
+  color:var(--oncolor);
+}
+
+
 .top_nav_plus a.icon {
   background: var(--bgcolor);
   display: flex;
