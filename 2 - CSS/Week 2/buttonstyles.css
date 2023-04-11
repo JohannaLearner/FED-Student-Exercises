@@ -14,6 +14,7 @@
   --accentmoss: #97bc62ff;
   --xsmall: 0.5rem;
   --small: calc(var(--xsmall) * 1.5);
+  --smallnormal: calc(var(--small) * 1.25);
   --normal: calc(var(--small) * 1.5);
   --large: calc(var(--normal) * 1.5);
   --xlarge: calc(var(--large) * 1.5);
@@ -151,15 +152,19 @@ main h1 {
 /*styling for web app pages*/
 
 form {
-  min-width: 80%;
-  padding: 10px;
+  max-width: 100svw;
+  padding: 2px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-content: flex-start;
-  gap: 10px;
+  justify-content: center;
+  gap: 5px;
   background-color: #f8d6de;
-  border: #fc455a solid 2px;
+
+}
+
+fieldset {
+  border: none;
 }
 
 .grant_name {
@@ -249,10 +254,8 @@ form {
 .web_app {
   display: flex;
   flex-flow: column wrap;
-  padding: var(--small);
   background-color: var(--fontdark);
-  padding: var(--large) var(--small) var(--large) var(--small);
-  
+  padding: var(--large);
 }
 
 .web_app h1 {
@@ -271,7 +274,7 @@ form {
 
 .web_app p {
   color: var(--bgcolor);
-  font-size: var(--normal);
+  font-size: var(--smallnormal);
 }
 
 /*footer styling for the wep app pages*/
@@ -296,15 +299,26 @@ form {
   color: var(--bgcolor);
 }
 
+.web li a:hover {
+  color: var(--alternativemar);
+}
+
+.web li a:active {
+  color: var(--accentteal);
+}
+
+
+
 .address {
   border: solid 1px var(--fontdark);
   padding: 20px;
 }
 
+
+/*about pages styling*/
 .web_about {
   background-color: var(--fontdark);
   color: #fff;
-
 }
 
 .web_about h1 {
