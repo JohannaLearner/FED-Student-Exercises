@@ -74,6 +74,7 @@ main h1 {
   padding-bottom: var(--normal);
 }
 
+/*styling for modal window button*/
 .modalB {
   background-color: var(--bgcolor);
   color: var(--oncolor);
@@ -84,6 +85,7 @@ main h1 {
   box-shadow: 0px 3px 15px #888888;
   min-width: 100px;
 }
+/*styling for modal window hidden*/
 .modal {
   display: none;
   position: fixed;
@@ -96,7 +98,7 @@ main h1 {
   border-radius: 15px;
   border: solid 1px var(--bgcolor);
 }
-
+/*styling for content of modal window*/
 .modal_content {
   background-color: var(--bgcolor);
   margin: 10% auto;
@@ -108,7 +110,7 @@ main h1 {
   color: var(--oncolor);
 }
 
-/* The Close Button */
+/* The Close Button on the modal window*/
 .close {
   display: flex;
   flex-direction: row wrap;
@@ -166,6 +168,8 @@ form {
   flex-direction:column;
 }
 
+/*styling for contact link*/
+
 .linkto {
   min-height: 50px;
   background-color: var(--accentalt);
@@ -184,7 +188,7 @@ form {
   color: var(--bgcolor);
 }
 
-/*header and nav styling*/
+/*header and nav styling for web app pages*/
 
 .top_nav_plus {
   overflow: hidden;
@@ -234,7 +238,7 @@ form {
 .active {
   background-color: var(--accentalt);
 }
-/*main section styling*/
+/*main section styling for the web app pages*/
 
 .web_app {
   display: flex;
@@ -264,7 +268,7 @@ form {
   font-size: var(--normal);
 }
 
-/*footer styling*/
+/*footer styling for the wep app pages*/
 .web {
   display: flex;
   flex-direction: column;
