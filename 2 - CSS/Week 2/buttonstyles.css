@@ -10,8 +10,9 @@
   --accentalt: #eb6841;
   --accentpeach: #fcedda;
   --alternativetan: #e0a96d;
-  --alternativemar: #7a2048;
-  --accentmoss: #97bc62ff;
+  --alternativemar: #852751;
+  --accentmoss: rgb(158, 185, 120);
+  --lovelypink: rgba(249, 152, 152, 0.886);
   --xsmall: 0.5rem;
   --small: calc(var(--xsmall) * 1.5);
   --smallnormal: calc(var(--small) * 1.25);
@@ -179,22 +180,28 @@ fieldset {
 
 /*styling for contact link*/
 
+.link
+{display: flex;
+flex-direction: column wrap;
+align-items: center;
+justify-content: center;}
+
 .linkto {
-  min-height: 50px;
-  background-color: var(--accentalt);
+  background-color: rgba(249, 152, 152, 0.886);
   border-radius: 5px;
-  border: solid 1px var(--oncolor);
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 50%;
-  align-items: center;
-  box-shadow: 0px 3px 15px rgba(249, 152, 152, 0.886);
+  padding: 0 10px 0 10px;
+  box-shadow: 0px 2px 15px rgba(249, 152, 152, 0.886);
 
 }
 
 .linkto a {
   color: var(--bgcolor);
+}
+
+.linkto a:hover {
+  color: var(--alternativemar);
+ ;
+
 }
 
 /*header and nav styling for web app pages*/
@@ -217,23 +224,24 @@ fieldset {
 }
 
 .top_nav_plus a:hover {
-  color:var(--accentpeach);
+  color:var(--lovelypink);
   ;
 }
 
 .top_nav_plus a:active {
-  color:var(--accentteal);
+  color:var(--bgcolor);
 
 
 }
 
 .top_nav_plus a:visited {
-  color:var(--alternativemar
+  color:var(--bgcolor
   );
 }
 
 .top_nav_plus a:visited:hover {
   color:var(--accentmoss);
+ 
 }
 
 
